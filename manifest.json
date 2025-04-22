@@ -1,0 +1,26 @@
+{
+  "required_api_version": "2.0.0",
+  "name": "Snippet Library",
+  "description": "Access text snippets from a JSON library",
+  "developer_name": "Mark Gandolfo",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "s",
+      "type": "keyword",
+      "name": "Snippet Trigger",
+      "description": "Keyword to trigger snippet search",
+      "default_value": "s"
+    },
+    {
+      "id": "snippets_path",
+      "type": "input",
+      "name": "Snippets File Path",
+      "description": "Path to the JSON file containing snippets",
+      "default_value": "~/.config/snippets/snippets.json"
+    }
+  ]
+}
