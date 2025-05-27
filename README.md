@@ -14,7 +14,7 @@ A simple Ulauncher extension that allows you to quickly access and paste text sn
 1. Make sure you have [Ulauncher](https://ulauncher.io/) installed
 2. Clone this repository to your Ulauncher extensions directory:
    ```
-   git clone https://github.com/yourusername/ulauncher-snippets.git ~/.local/share/ulauncher/extensions/ulauncher-snippets
+   git clone https://github.com/markgandolfo/ulauncher-snippets ~/.local/share/ulauncher/extensions/ulauncher-snippets
    ```
    or use the extension manager in Ulauncher to install it directly from the Ulauncher extension store.
 
